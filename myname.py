@@ -1,5 +1,7 @@
-def perkenalan(nama):
+def perkenalan(nama, alamat):
     print(f"Halo, nama saya {nama}!")
+    print(f"Saya tinggal di {alamat}.")
 
 myName = "Afrizal Wahyu Alkautsar"
-perkenalan(myName)
+myAddress = "Nganjuk"
+perkenalan(myName, myAddress)
